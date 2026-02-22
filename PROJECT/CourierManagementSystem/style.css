@@ -1,0 +1,48 @@
+/* The main background of the window */
+.root {
+    -fx-background-color: #f4f7f6;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Style for the Labels (Username, Password) */
+.label {
+    -fx-text-fill: #2c3e50;
+    -fx-font-size: 14px;
+}
+
+/* Style for Text Fields */
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 8;
+}
+
+/* Focus effect for fields (when you click them) */
+.text-field:focused {
+    -fx-border-color: #2980b9;
+    -fx-border-width: 2;
+}
+
+/* The Login Button */
+.button {
+    -fx-background-color: #2980b9;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+/* Button Hover Effect */
+.button:hover {
+    -fx-background-color: #3498db;
+}
+
+/* The "Need to Register?" Button (making it look like a link) */
+.button-link {
+    -fx-background-color: transparent;
+    -fx-text-fill: #e67e22; /* Courier Orange */
+    -fx-underline: true;
+}
